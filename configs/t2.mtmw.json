@@ -1,0 +1,66 @@
+{
+    "PARlabels": {
+        "train_data_path": "data/paragraphs.train",
+        "validation_data_path": "data/paragraphs.dev",
+        "sent_idxs": [1],
+        "tasks": {
+            "uprlabels": {
+                "column_idx": 7,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "sslabels": {
+                "column_idx": 8,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "plabels": {
+                "column_idx": 9,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "avlabels": {
+                "column_idx": 10,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "mlabels": {
+                "column_idx": 11,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "clabels": {
+                "column_idx": 12,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "tptmlabels": {
+                "column_idx": 13,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            }
+        }
+    },
+    "SPANlabels": {
+        "train_data_path": "data/spans.train",
+        "validation_data_path": "data/spans.dev",
+        "sent_idxs": [7],
+        "tasks": {
+            "spanlabels": {
+                "column_idx": 8,
+                "task_type": "classification",
+                "metric": "macro-f1-all",
+                "class_weights": "balanced",
+                "loss_weight": 0.25
+            }
+        }
+    }
+}
+

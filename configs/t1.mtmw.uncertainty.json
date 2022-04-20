@@ -1,0 +1,37 @@
+{
+    "PARlabels": {
+        "train_data_path": "data/paragraphs.train",
+        "validation_data_path": "data/paragraphs.dev",
+        "sent_idxs": [1],
+        "tasks": {
+            "pcllabels": {
+                "column_idx": 6,
+                "task_type": "classification",
+                "metric": "macro-f1", // over the positive class
+                "class_weights": "balanced"
+            },
+            "disagreementlabels": {
+                "column_idx": 4,
+                "task_type": "classification",
+                "metric": "macro-f1-all",
+                "class_weights": "balanced",
+                "loss_weight": 0.25
+            }
+        }
+    },
+    "SPANlabels": {
+        "train_data_path": "data/spans.train",
+        "validation_data_path": "data/spans.dev",
+        "sent_idxs": [7],
+        "tasks": {
+            "spanlabels": {
+                "column_idx": 8,
+                "task_type": "classification",
+                "metric": "macro-f1-all",
+                "class_weights": "balanced",
+                "loss_weight": 0.25
+            }
+        }
+    }
+}
+
