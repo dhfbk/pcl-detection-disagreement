@@ -5,7 +5,7 @@
 
 This repository contains the code for the paper:
 
-Alan Ramponi and Elisa Leonardelli. 2022. **DH-FBK at SemEval-2022 Task 4: Leveraging Annotators' Disagreement and Multiple Data Views for Patronizing Language Detection**. In *Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)*. [[cite]](#citation) [[paper]](https://aclanthology.org/2022.semeval-1.42/)
+Alan Ramponi and Elisa Leonardelli. 2022. **DH-FBK at SemEval-2022 Task 4: Leveraging Annotators' Disagreement and Multiple Data Views for Patronizing Language Detection**. In *Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)*, pages 324–334, Seattle, United States. Association for Computational Linguistics. [[cite]](#citation) [[paper]](https://aclanthology.org/2022.semeval-1.42/)
 
 
 ## Background
