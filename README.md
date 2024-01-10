@@ -5,7 +5,7 @@
 
 This repository contains the code for the paper:
 
-Alan Ramponi and Elisa Leonardelli. 2022. **DH-FBK at SemEval-2022 Task 4: Leveraging Annotators' Disagreement and Multiple Data Views for Patronizing Language Detection**. In *Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)*. [[cite]](#citation) [pdf (coming soon)]
+Alan Ramponi and Elisa Leonardelli. 2022. **DH-FBK at SemEval-2022 Task 4: Leveraging Annotators' Disagreement and Multiple Data Views for Patronizing Language Detection**. In *Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)*. [[cite]](#citation) [[paper]](https://aclanthology.org/2022.semeval-1.42/)
 
 
 ## Background
@@ -224,12 +224,16 @@ Since test data labels have not been publicly distributed by shared task organiz
 If you use or build on top of this work, please cite our paper as follows:
 
 ```
-@inproceedings{ramponi-leonardelli-2022-leveraging,
-    title = "{DH-FBK} at {S}em{E}val-2022 {T}ask 4: {L}everaging {A}nnotators' {D}isagreement and {M}ultiple {D}ata {V}iews for {P}atronizing {L}anguage {D}etection",
+@inproceedings{ramponi-leonardelli-2022-dh,
+    title = "{DH}-{FBK} at {S}em{E}val-2022 Task 4: Leveraging Annotators{'} Disagreement and Multiple Data Views for Patronizing Language Detection",
     author = "Ramponi, Alan and Leonardelli, Elisa",
     booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
     month = jul,
     year = "2022",
-    address = "Seattle, Washington, USA"
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.semeval-1.42",
+    doi = "10.18653/v1/2022.semeval-1.42",
+    pages = "324--334"
 }
 ```
